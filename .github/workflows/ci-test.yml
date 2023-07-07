@@ -27,7 +27,7 @@ jobs:
       - name: Setup MySQL
         uses: samin/mysql-action@v1
         with:
-          character set server: 'utf8' 
+          character set server: 'utf8'
           mysql database: 'jap_test'
           mysql user: ${{ secrets.DB_USER }}
           mysql password: ${{ secrets.DB_PASSWORD }}
